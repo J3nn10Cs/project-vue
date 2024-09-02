@@ -6,6 +6,8 @@ const calculateTotalPay = (quantity,months) =>{
         total = quantity * 1.4; //40% de intereses
     }else if(quantity>=1000 && quantity< 15000){
         total = quantity * 1.3; //30% de intereses
+    }else{
+        total = quantity * 1.2; //30% de intereses
     }
 
     //Plazo
